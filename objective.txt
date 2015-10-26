@@ -1,0 +1,3 @@
+Joel is not cool 
+John is cool 
+John -> CoolerThan(Joel)
