@@ -11,6 +11,3 @@ var classFile = classParser(fs.readFileSync('Class', {encoding: 'utf8'}));
 
 var studentFile = studentParser(fs.readFileSync('student.txt', {encoding: 'utf8'}));
 
-console.log(objective);
-console.log(classFile);
-console.log(studentFile)
