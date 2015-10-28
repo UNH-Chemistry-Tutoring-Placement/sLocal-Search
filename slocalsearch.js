@@ -5,9 +5,12 @@ var fs = require('fs'),
 	args = require('Args');
 
 
-var objective = objectiveParser(fs.readFileSync(args.objectiveFile || 'objective.txt', {encoding: 'utf8'}));
+var data = {};
 
-var classFile = classParser(fs.readFileSync('Class', {encoding: 'utf8'}));
+data.objective = objectiveParser(fs.readFileSync(args.objectiveFile || 'objective.txt', {encoding: 'utf8'}));
 
-var studentFile = studentParser(fs.readFileSync('student.txt', {encoding: 'utf8'}));
+data.class = classParser(fs.readFileSync('Class', {encoding: 'utf8'}));
 
+data.student = studentParser(fs.readFileSync('student.txt', {encoding: 'utf8'}));
+
+console.log(data);
