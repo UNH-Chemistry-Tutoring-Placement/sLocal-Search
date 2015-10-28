@@ -3,6 +3,7 @@ var fs = require('fs'),
 	classParser = require('classParser'),
 	studentParser = require('studentParser'),
 	args = require('Args');
+	ranAssign = require('randomAssignment');
 
 
 var data = {};
@@ -13,4 +14,6 @@ data.class = classParser(fs.readFileSync('Class', {encoding: 'utf8'}));
 
 data.student = studentParser(fs.readFileSync('student.txt', {encoding: 'utf8'}));
 
-console.log(data);
+var times = ranAssign(data);
+
+console.log(times);
