@@ -4,9 +4,9 @@ var fs = require('fs'),
 	studentParser = require('studentParser'),
 	args = require('Args'),
 	ranAssign = require('randomAssignment'),
-    grader = require('Grade'),
-	graderWith = require('GradeWith'),
-	graderWithout = require('GradeWithout');
+    grader = require('Grade').grade,
+	graderWith = require('Grade').gradeWith,
+	graderWithout = require('Grade').gradeWithout;
 
 var data = {};
 
