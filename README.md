@@ -7,5 +7,14 @@ To run this local search solver, type this into your terminal:
 where all the files are listed as command line arguments.
 
 ##### File placement
-The file paths are relative to the `slocalsearch.js` file. So if the file `Class.txt` is in the same directory as `slocalsearch.js`, you would run `node slocalsearch.js Class.txt [other args]`. But if the file `Class.txt` is in the directory above `slocalsearch.js`, you would run `node slocalsearch.js ../Class.txt [other args]`
+The file paths are relative the directory that you call `node` from. 
+So if the the file `Class` is in the same directory as `slocalsearch.js`, but you want to call the program from a higher directory, you would use 
+```
+node directory/slocalsearch.js directory/Class [other arguments]
+```
+If the file `Class` is in the higher directory, then use 
+``` node directory/slocalsearch.js Class [other arguments]
+
+if you execute in the same directory as everything just use
+``` node slocalsearch Class [other arguments]
 
