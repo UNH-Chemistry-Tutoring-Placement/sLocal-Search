@@ -10,7 +10,8 @@ Data.load();
 var data = Data.get();
 
 var times = ranAssign(data);
-var studentTest = []
+console.log(times);
+/*var studentTest = []
 studentTest.push('daseg@wildcats.unh.edu')
 studentTest.push('robare@wildcats.unh.edu')
 //studentTest.push('gemck@wildcats.unh.edu')
@@ -25,3 +26,4 @@ var gradeWithout = graderWithout('Fri 14:00-15:00',studentTest,'daseg@wildcats.u
 console.log("grade: " + grade);
 console.log("gradeWith: " + gradeWith);
 console.log("gradeWithout: " + gradeWithout);
+*/
