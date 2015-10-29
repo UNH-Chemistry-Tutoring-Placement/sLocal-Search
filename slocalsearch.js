@@ -13,8 +13,8 @@ var times = ranAssign(data);
 var studentTest = []
 studentTest.push('daseg@wildcats.unh.edu')
 studentTest.push('robare@wildcats.unh.edu')
-studentTest.push('gemck@wildcats.unh.edu')
-studentTest.push('cahol@wildcats.unh.edu')
+//studentTest.push('gemck@wildcats.unh.edu')
+//studentTest.push('cahol@wildcats.unh.edu')
 
 console.log("orig: " + studentTest)
 var grade = grader('Fri 14:00-15:00',studentTest);
