@@ -1,16 +1,11 @@
-var ranAssign = require('randomAssignment'),
-    grader = require('Grade').grade,
-	graderWith = require('Grade').gradeWith,
-	graderWithout = require('Grade').gradeWithout,
-    Data = require('FileData');
+var Data = require('FileData'),
+    swap = require('Swap');
 
 //load the data from file
 Data.load();
 
-var data = Data.get();
+swap();
 
-var times = ranAssign(data);
-console.log(times);
 /*var studentTest = []
 studentTest.push('daseg@wildcats.unh.edu')
 studentTest.push('robare@wildcats.unh.edu')
