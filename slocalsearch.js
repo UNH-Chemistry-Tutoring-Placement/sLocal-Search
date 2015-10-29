@@ -1,20 +1,13 @@
-var fs = require('fs'),
-	objectiveParser = require('objectiveParser'),
-	classParser = require('classParser'),
-	studentParser = require('studentParser'),
-	args = require('Args'),
-	ranAssign = require('randomAssignment'),
+var ranAssign = require('randomAssignment'),
     grader = require('Grade').grade,
 	graderWith = require('Grade').gradeWith,
-	graderWithout = require('Grade').gradeWithout;
+	graderWithout = require('Grade').gradeWithout,
+    Data = require('FileData');
 
-var data = {};
+//load the data from file
+Data.load();
 
-data.objective = objectiveParser(fs.readFileSync(args.objectiveFile || 'objective.txt', {encoding: 'utf8'}));
-
-data.class = classParser(fs.readFileSync('Class', {encoding: 'utf8'}));
-
-data.student = studentParser(fs.readFileSync('student.txt', {encoding: 'utf8'}));
+var data = Data.get();
 
 var times = ranAssign(data);
 var studentTest = []
@@ -24,9 +17,9 @@ studentTest.push('gemck@wildcats.unh.edu')
 studentTest.push('cahol@wildcats.unh.edu')
 
 console.log("orig: " + studentTest)
-var grade = grader(data,'Fri 14:00-15:00',studentTest);
-var gradeWith = graderWith(data,'Fri 14:00-15:00',studentTest,'amsal@wildcats.unh.edu');
-var gradeWithout = graderWithout(data,'Fri 14:00-15:00',studentTest,'daseg@wildcats.unh.edu');
+var grade = grader('Fri 14:00-15:00',studentTest);
+var gradeWith = graderWith('Fri 14:00-15:00',studentTest,'amsal@wildcats.unh.edu');
+var gradeWithout = graderWithout('Fri 14:00-15:00',studentTest,'daseg@wildcats.unh.edu');
 
 
 console.log("grade: " + grade);
