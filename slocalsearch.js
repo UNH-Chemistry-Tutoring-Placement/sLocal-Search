@@ -3,7 +3,8 @@ var Data = require('FileData'),
 
 
 //load the data from file
-Data.load();
+Data.load(function(){ 
 
-swap();
+    swap();
 
+});

@@ -3,7 +3,9 @@ This uses Node.js. It's already installed on agate! But if you want it installed
 
 # Usage
 To run this local search solver, type this into your terminal:
-`node slocalsearch.js classfile studentfile objectivefile outputfile timeToRunInSeconds`
+```
+node slocalsearch.js classfile studentfile objectivefile outputfile timeToRunInSeconds
+```
 where all the files are listed as command line arguments.
 
 ##### File placement

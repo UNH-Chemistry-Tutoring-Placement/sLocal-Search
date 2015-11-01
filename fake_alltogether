@@ -1,0 +1,226 @@
+Class Info Format: 1
+Description: some free text
+Number of lectures: 2
+Name: Mon 8:00-9:00
+Name: Wed 14:10-15:10
+Number of groups: 5
+Name: Travis Gunter
+Email: trgun@wildcats.unh.edu
+Time: Thu 13:00-14:00
+Name: Jeff Bolding
+Email: jebol@wildcats.unh.edu
+Time: Tue 8:30-9:30
+Name: George Patterson
+Email: gepat@wildcats.unh.edu
+Time: Tue 11:00-12:00
+Name: Diana Thompson
+Email: ditho@wildcats.unh.edu
+Time: Wed 9:00-10:00
+Name: Shana Marion
+Email: shmar@wildcats.unh.edu
+Time: Fri 14:00-15:00
+Objective Function Format: 1
+Description: some free text
+min group size: 3
+max group size: 5
+below min penalty: 5
+above max penalty: 10
+possible choice penalty: 1
+# not currently including an "impossible choice penalty"
+# not currently including balance terms
+Student Info Format: 1
+Description: some free text
+Number of students: 20
+Name: Danial Segovia
+Email: daseg@wildcats.unh.edu
+Lecture: Mon 8:00-9:00
+Year: 1
+Sex: Male
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 1
+Thu 13:00-14:00
+Name: Amber Salley
+Email: amsal@wildcats.unh.edu
+Lecture: Wed 14:10-15:10
+Year: 3
+Sex: Female
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Tue 8:30-9:30
+Fri 14:00-15:00
+Name: Fancisca Garnett
+Email: fagar@wildcats.unh.edu
+Lecture: Wed 14:10-15:10
+Year: 2
+Sex: female
+Number of good times: 1
+Wed 9:10-10:00
+Number of possible times: 3
+Wed 9:00-10:00
+Tue 11:00-12:00
+Thu 13:00-14:00
+Name: Robert Arellano
+Email: robare@wildcats.unh.edu
+Lecture: Mon 8:00-9:00
+Year: 4
+Sex: Male
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Tue 8:30-9:30
+Tue 11:00-12:00
+Name: Mathew Oneil
+Email: maone@wildcats.unh.edu
+Lecture: Wed 14:10-15:10
+Year: 3
+Sex: Male
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 1
+Wed 9:00-10:00
+Name: Maurice Smith
+Email: masmi@wildcats.unh.edu
+Lecture: Mon 8:00-9:00
+Year: 2
+Sex: Male
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 1
+Tue 11:00-12:00
+Name: Douglas Hammonds
+Email: doham@wildcats.unh.edu
+Lecture: Mon 8:00-9:00
+Year: 3
+Sex: Male
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 1
+Fri 14:00-15:00
+Name: Colton Covey
+Email: cocov@wildcats.unh.edu
+Lecture: Mon 8:00-9:00
+Year: 4
+Sex: Male
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Tue 11:00-12:00
+Wed 9:00-10:00
+Name: Maria Helfer
+Email: mahel@wildcats.unh.edu
+Lecture: Wed 14:10-15:10
+Year: 1
+Sex: Female
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Tue 8:30-9:30
+Fri 14:00-15:00
+Name: Linda Frechette
+Email: lifre@wildcats.unh.edu
+Lecture: Mon 9:00-8:00
+Year: 2
+Sex: Female
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Thu 13:00-14:00
+Wed 9:00-10:00
+Name: Richard Jessen
+Email: rijes@wildcats.unh.edu
+Lecture: Wed 14:10-15:10
+Year: 4
+Sex: Male
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 1
+Fri 14:00-15:00
+Name: Steven Orona
+Email: storo@wildcats.unh.edu
+Lecture: Mon 8:00-9:00
+Year: 2
+Sex: Male
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Wed 9:00-10:00
+Tue 8:30-9:30
+Name: Joyce Labarge
+Email: jolab@wildcats.unh.edu
+Lecture: Wed 14:10-15:10
+Year: 1
+Sex: Female
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 1
+Fri 14:00-15:00
+Name: Mary Hill
+Email: mahil@wildcats.unh.edu
+Lecture: Mon 8:00-9:00
+Year: 3
+Sex: Female
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Tue 11:00-12:00
+Thu 13:00-14:00
+Name: James Perry
+Email: japer@wildcats.unh.edu
+Lecture: Wed 14:10-15:10
+Year: 4
+Sex: Male
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Wed 9:00-10:00
+Tue 11:00-12:00
+Name: Albert Bishop
+Email: albis@wildcats.unh.edu
+Lecture: Wed 14:10-15:10
+Year: 1
+Sex: Male
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Tue 11:00-12:00
+Tue 8:30-9:30
+Name: Genoveva McKeever
+Email: gemck@wildcats.unh.edu
+Lecture: Mon 8:00-9:00
+Year: 3
+Sex: Female
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 1
+Thu 13:00-14:00
+Name: Carolyn Holmes
+Email: cahol@wildcats.unh.edu
+Lecture: Wed 14:10-15:10
+Year: 4
+Sex: Female
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Tue 8:30-9:30
+Fri 14:00-15:00
+Name: Naomi Massey
+Email: namas@wildcats.unh.edu
+Lecture: Mon 8:00-9:00
+Year: 2
+Sex: Female
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 2
+Fri 14:00-15:00
+Thu 13:00-14:00
+Name: Latonya Manriquez
+Email: laman@wildcats.unh.edu
+Lecture: Wed 14:10-15:10
+Year: 1
+Sex: Female
+Number of good times: 1
+Thu 13:00-14:00
+Number of possible times: 1
+Wed 9:00-10:00
