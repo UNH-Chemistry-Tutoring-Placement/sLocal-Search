@@ -26,6 +26,9 @@ max group size: 5
 below min penalty: 5
 above max penalty: 10
 possible choice penalty: 1
+diff lecture penalty: 10
+gender balance penalty: 2
+year balance penalty: 2
 # not currently including an "impossible choice penalty"
 # not currently including balance terms
 Student Info Format: 1

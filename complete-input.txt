@@ -1,12 +1,15 @@
 #Objective Function Format
 #================================
-Objective Function Format: 1
+Objective Function Format: 2
 Description: Init. Does not take impossible choice penalty or balance terms
-min group size: 2
-max group size: 3
+min group size: 4
+max group size: 9
 below min penalty: 5
 above max penalty: 10
 possible choice penalty: 1
+diff lecture penalty: 10
+gender balance penalty: 2
+year balance penalty: 2
 # not currently including an "impossible choice penalty"
 # not currently including balance terms
 #

@@ -1,9 +1,0 @@
-Objective Function Format: 1
-Description: some free text
-min group size: 3
-max group size: 5
-below min penalty: 5
-above max penalty: 10
-possible choice penalty: 1
-# not currently including an "impossible choice penalty"
-# not currently including balance terms
