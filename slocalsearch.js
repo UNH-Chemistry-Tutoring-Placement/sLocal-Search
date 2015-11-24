@@ -6,6 +6,7 @@ var Data = require('FileData'),
 //load the data from file
 Data.load(function(){ 
 
+    //tests.randomAssignment();
     swap();
     
 });
