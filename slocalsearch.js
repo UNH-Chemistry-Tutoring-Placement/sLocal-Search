@@ -1,12 +1,16 @@
 var Data = require('FileData'),
     swap = require('Swap'),
-    tests = require('Tests');
+    tests = require('Tests'),
+    aws = require('AWS');
 
 
 //load the data from file
 Data.load(function(){ 
 
     //tests.randomAssignment();
+    if(process.argv[4] == "aws"){
+        aws();
+    }
     swap();
     
 });
