@@ -1,20 +1,24 @@
-var Data = require('FileData'),
-    swap = require('Swap'),
-    tests = require('Tests'),
-    aws = require('AWS'),
-    out = require("FileData").out;
+var FileIO = require('FileData'),
+    args = require('Yargs'),
+    regularSwap = require('Swappers/RegularSwap'),
+    existingSwap = require('Swappers/ExistingSwap');
+    //AWSswap = require('Swappers/AWS');
 
 
 //load the data from file
-Data.load(function(){
-
-    //tests.randomAssignment();
-    if(process.argv[4] == "aws"){
-        aws();
-    }
+FileIO.load(function(){
     
-    //console.log(out.get());
-    var results = swap();
-    out(results.grade, results.assignments);
+    var results;
+    
+    if (args.swapType === "regular")
+        results = regularSwap();
+    
+    else if (args.swapType === "improve")
+        results = existingSwap();
+    
+   // else if (args.swapType === "aws")
+     //   results = AWSswap();
+    
+    FileIO.out(results.grade, results.assignments);
 
 });
