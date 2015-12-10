@@ -2,7 +2,7 @@ var FileIO = require('FileData'),
     args = require('Yargs'),
     regularSwap = require('Swappers/RegularSwap'),
     existingSwap = require('Swappers/ExistingSwap'),
-    AWSswap = require('Swappers/AWS'),
+    AMSswap = require('Swappers/AMS'),
     swoSwap = require('Swappers/SWO');
 
 
@@ -17,8 +17,8 @@ FileIO.load(function(){
     else if (args.swapType === "improve")
         results = existingSwap();
     
-    else if (args.swapType === "aws")
-        results = AWSswap();
+    else if (args.swapType === "ams")
+        results = AMSswap();
 
     else if (args.swapType === "swo")
         results = swoSwap()
