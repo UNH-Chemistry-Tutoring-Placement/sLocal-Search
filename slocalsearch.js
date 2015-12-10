@@ -21,8 +21,9 @@ FileIO.load(function(){
         results = AWSswap();
 
     else if (args.swapType === "swo")
-        swoSwap()
-    
+        results = swoSwap()
+
+    console.log("Grade: " + results.grade)
     FileIO.out(results.grade, results.assignments);
 
 });
