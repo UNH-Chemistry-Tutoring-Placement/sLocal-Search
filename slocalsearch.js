@@ -23,7 +23,7 @@ FileIO.load( function(){
     else if (args.swapType === "swo")
         results = swoSwap()
 
-    console.log("Grade: " + results.grade, results)
+    console.log("Grade: ", results, results.grade)
     FileIO.out(results.grade, results.assignments);
 
 });
