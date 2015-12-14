@@ -7,7 +7,7 @@ var FileIO = require('FileData'),
 
 
 //load the data from file
-FileIO.load(function(){
+FileIO.load( function(){
     
     var results;
     
@@ -23,7 +23,7 @@ FileIO.load(function(){
     else if (args.swapType === "swo")
         results = swoSwap()
 
-    console.log("Grade: " + results.grade)
+    console.log("Grade: " + results.grade, results)
     FileIO.out(results.grade, results.assignments);
 
 });

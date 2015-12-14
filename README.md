@@ -11,6 +11,6 @@ where all the files are catted together and given to the program on stdin
 ##### Algorithm Name
 - `ommited` defaults to the regular search
 - `improve` looks for a solution on standard in and tries to improve that solution
-- `ams` 
+- `ams` adaptive multi search
 - `swo` squeeky wheel optimization
 
