@@ -4,7 +4,7 @@ var FileIO = require('FileData'),
     existingSwap = require('Swappers/ExistingSwap'),
     AMSswap = require('Swappers/AMS'),
     swoSwap = require('Swappers/SWO');
-
+    test = require('assignmentList');
 
 //load the data from file
 FileIO.load( function(){
@@ -22,6 +22,9 @@ FileIO.load( function(){
 
     else if (args.swapType === "swo")
         results = swoSwap()
+
+    else if(args.swapType === "shit")
+        results = test();
 
     console.log("Grade: " + results.grade, results)
     FileIO.out(results.grade, results.assignments);
