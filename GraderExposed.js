@@ -4,7 +4,8 @@ var Data = require('FileData'),
 
 //load the data from file
 Data.load(function(){ 
-
-    console.log(Grader.gradeTotal(Data.get().assignment));
+    var a = Data.get().assignment;
+    var grade = Grader.gradeTotal(a);
+    console.log(grade);
     
 });
