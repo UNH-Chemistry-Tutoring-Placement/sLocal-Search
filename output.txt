@@ -1,0 +1,6 @@
+Solution Format: 2
+Objective Function: STUFF
+Class Info: STUFF
+Student Info: STUFF
+Number of students: 214
+Solution cost: 615
