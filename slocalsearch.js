@@ -5,7 +5,6 @@ var FileIO = require('FileData'),
     AMSswap = require('Swappers/AMS'),
     swoSwap = require('Swappers/SWO');
 
-
 //load the data from file
 FileIO.load( function(){
     
